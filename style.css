@@ -1,0 +1,149 @@
+body{
+background-color:white;
+}
+
+header{
+  
+   vertical-align:30px;
+
+}
+
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;  
+    color:#0A3871;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(120, 253, 157, 0.24);
+    border-style:dotted;
+   
+}
+
+main{
+    display: flex;
+    vertical-align: top;
+    width: 20px;
+    margin: 17px 50px 50px 150px; 
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items:baseline;  
+}
+
+.cardleft{
+    width: 500px;
+    border: none;
+  
+
+}
+
+.input-text{
+   
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    border-style: double;
+    border-color: #0A3871;
+}
+
+.restricciones{
+    position: relative;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+
+}
+
+p{
+   display: inline-block;
+    width: 205px;
+    color: #495057;
+    opacity: 0.8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 12px;
+      
+}
+.buttons{
+    margin: 12px 134px 44px 42px;
+    display: flex;
+}
+
+.encriptar{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0A3871;
+    color: aliceblue;
+    margin-right: 20px;
+
+}
+
+.desencriptar{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-left: 20px;
+
+}
+
+.cardright{
+    float: right;
+    background-color: white;
+    border-radius: 25px;
+    border-color: #0A3871;
+   
+    
+   
+}
+
+#imagen{
+    margin-left: 90px;
+    margin-top: 15%;
+    width: 60%;
+    height: auto;
+       
+}
+#mnsj{
+   
+    margin-left: 50px;
+    margin-right: 20px;
+    
+}
+.mensajes{
+    width: 80%;
+    margin-left: 33px;
+    border: none;
+    
+
+}
+
+.copiar{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0A3871;
+    color: aliceblue;
+    margin: 20px 150px 50px 250px;
+}
+
+.endboard{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    
+
+}
+.logogitub{
+    width: 40px;
+    height: 40px;
+
+}
+h5{
+    text-align: top;
+    color: rgb(63, 14, 196);
+}

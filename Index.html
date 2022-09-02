@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset= "UTF-8">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <img class="logo" src="imagenes/Vector.jpg" >
+            <h1> Encriptador de Texto </h1>
+        </header>
+
+        <main>
+            <div class="cardleft">
+                <textarea class="input-text" cols="30" rows="15" placeholder="Ingrese su texto aca"></textarea>
+                <div class="restricciones">
+                    <img src="imagenes/advertencia.png" alt="advertencia">
+                    <p>solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="buttons">
+                    <button class="encriptar" onclick="botonEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+                </div>
+                
+            </div>
+            <div class="cardright">  
+                <img  src="imagenes/imagen.png" id="imagen">  
+                <h2 id="mnsj">Ningun mensaje fue encontrado</h2>         
+                <textarea class="mensajes" cols="20" rows="6" ></textarea> 
+                <button class="copiar" onclick="copiar()">Copiar</button>
+                
+            </div>
+        </main>
+        <div class="endboard">
+            <a href="https://github.com/LilianaCuervas"><img src="imagenes/logogithub.png" class="logogitub"></a>
+            <h5>Desarrollado por Liliana Cuervas</h5>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    
+
+</html>
